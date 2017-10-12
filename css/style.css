@@ -1,8 +1,37 @@
+.navbar-default{
+    position: fixed;
+    width: 100%;
+    z-index: 999;    
+}
+.navbar{
+    background-color: white;
+    margin-bottom: 0;
+    }
 
-.menu{
-    background-color: aquamarine;
+.navbar-brand img{
+    margin-top: -10px;
+    width: 75%;
+    }
+.navbar ul{
+    float: right;}
+.navbar li a{
+    color: white;
 }
 
+.img-responsive{
+    padding-top: 25px}
+@media (min-width: 320px) and (max-width: 720px){
+
+    .navbar ul{
+        float: left;}
+    
+    input, textarea{
+    width: 100%;
+    }
+    figure{
+    margin: 0 20%}
+    
+}
 
 
 .actualizacion{
@@ -10,9 +39,12 @@
 }
 
 footer{
-    padding:30px 40px ;
-    background-color: dimgray;
+    padding:10px 40px 30px;
+    background-color: #186eab;
 }
+
+.contact{
+    margin-bottom: 70px;}
 
 input, textarea{
     width: 60%;
@@ -24,13 +56,20 @@ input, textarea{
     text-align: center;
 }
 
+h4{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;}
 .cont-nos{
     padding: 50px 0}
 
 .box{
-    background-color: aqua;
+    margin-top: 20px;
+    background-color: #94b83e;
 }
 
 img.historia{
     float: left;
     margin:0 20px 20px 0;}
+
+
