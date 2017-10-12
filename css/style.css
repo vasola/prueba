@@ -52,16 +52,29 @@ input, textarea{
     float: left;
 }
 
-.container h1, h3{
+
+
+.container h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container h3, .container h5{
+    padding: 20px 0;
     text-align: center;
 }
 
-h4{
+.container h5{
+    font-size: 1.5em}
+
+.container h4{
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 50px;}
+    margin-bottom: 50px;
+}
 .cont-nos{
-    padding: 50px 0}
+    padding: 50px 0
+}
 
 .box{
     margin-top: 20px;
@@ -72,4 +85,8 @@ img.historia{
     float: left;
     margin:0 20px 20px 0;}
 
-
+.articles p a{
+    text-align: center;
+    color: #94b83e;
+    font-size: 1.1em;
+}
