@@ -1,0 +1,36 @@
+
+.menu{
+    background-color: aquamarine;
+}
+
+
+
+.actualizacion{
+    padding-top: 50px;
+}
+
+footer{
+    padding:30px 40px ;
+    background-color: dimgray;
+}
+
+input, textarea{
+    width: 60%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.container h1, h3{
+    text-align: center;
+}
+
+.cont-nos{
+    padding: 50px 0}
+
+.box{
+    background-color: aqua;
+}
+
+img.historia{
+    float: left;
+    margin:0 20px 20px 0;}
